@@ -55,7 +55,7 @@ Follow the instructions below when adding tags to resources that will be created
 2. Open the file in an editor and customize the tag key-value pairs as needed.
 3. Using the AWS CLI, run the command listed below. The CLI user account must have read permissions to the source bucket if the files are stored in S3.
 
-**NOTE:** The CLI command below creates a stack using the CloudFormation template from the [cfn-multi-az-vpc](../cfn-multi-az-vpc) repository. Update the file path and template name as necessary.
+**NOTE:** The CLI command below creates a stack using the CloudFormation template [cfn-multi-az-vpc.yaml](https://github.com/smscully/cfn-multi-az-vpc/cfn-multi-az-vpc.yaml) from the [cfn-multi-az-vpc](https://github.com/smscully/cfn-multi-az-vpc/) repository. Update the file path and template name as necessary.
 
 ```bash
 aws cloudformation create-stack --stack-name multi-az-vpc-test\
