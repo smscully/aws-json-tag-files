@@ -1,0 +1,23 @@
+{
+    "Parameters" : {
+      "BucketName" : "test-bucketname-001"
+    },
+    "Tags" : {
+      "Owner": "Customer Loyalty Team",
+      "BusinessUnit": "Marketing",
+      "SDLCStage": "Development",
+      "CostCenter": "12345",
+      "FinancialOwner": "Marketing",
+      "ComplianceFramework": "HIPAA"
+    },
+    "StackPolicy" : {
+      "Statement" : [
+        {
+          "Effect" : "Allow",
+          "NotAction" : "Update:Delete",
+          "Principal": "*",
+          "Resource" : "*"
+        }
+      ]
+    }
+  }

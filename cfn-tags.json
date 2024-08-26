@@ -1,0 +1,8 @@
+[
+   {"Key": "Owner", "Value": "Customer Loyalty Team"},
+   {"Key": "BusinessUnit", "Value": "Marketing"},
+   {"Key": "SDLCStage", "Value": "Development"},
+   {"Key": "CostCenter", "Value": "12345"},
+   {"Key": "FinancialOwner", "Value": "Marketing"},
+   {"Key": "ComplianceFramework", "Value": "HIPAA"}
+]

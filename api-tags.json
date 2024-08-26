@@ -1,0 +1,14 @@
+{
+   "ResourceARNList": [
+      "<arn>",
+      "<arn>"
+    ],
+    "Tags": {
+       "Owner": "Customer Loyalty Team",
+       "BusinessUnit": "Marketing",
+       "SDLCStage": "Development",
+       "CostCenter": "12345",
+       "FinancialOwner": "Marketing",
+       "ComplianceFramework": "HIPAA"
+    }
+}
